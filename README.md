@@ -32,3 +32,7 @@ Le fichier web-logs-deployment.yaml contient :
 ```bash
 kubectl apply -f ./k8s/web-logs-deployment.yaml
 ```
+## **4. Obtenir les logs**
+```bash
+kubectl logs <nom du pod> -c flask-app
+```
