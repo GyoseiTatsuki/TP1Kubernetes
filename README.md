@@ -34,5 +34,5 @@ kubectl apply -f ./k8s/web-logs-deployment.yaml
 ```
 ## **4. Obtenir les logs**
 ```bash
-kubectl logs <nom du pod> -c flask-app
+kubectl logs <nom du pod> -c <nom du container>
 ```
